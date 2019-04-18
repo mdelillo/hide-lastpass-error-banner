@@ -1,0 +1,6 @@
+div[id^=lptopspacer] {
+  display: none;
+}
+div[id^=lpiframeoverlay] {
+  display: none;
+}

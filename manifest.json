@@ -1,0 +1,10 @@
+{
+  "name": "Hide LastPass Error Banner",
+  "version": "1.0",
+  "description": "Hides the 'An error occurred' LastPass banner.",
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["<all_urls>"]
+  }],
+  "manifest_version": 2
+}
